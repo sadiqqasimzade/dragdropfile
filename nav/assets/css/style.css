@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+
+nav ul{
+ 
+    width: 100%;
+   
+}   
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+ list-style: none;
+}
+nav ul li a{
+    padding: 1%;
+    text-decoration: none;
+    font-size: larger;
+}
